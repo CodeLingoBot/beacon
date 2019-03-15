@@ -95,7 +95,7 @@ func (eb *EddyStoneBeacon) addURL(url string) {
 	eb.OutFrame = &f
 }
 
-// Start to Advertise your beacon, it is block API.
+// Advertise starts to Advertise your beacon, it is block API.
 func (eb *EddyStoneBeacon) Advertise() {
 	// a := &gatt.AdvPacket{}
 	// a.AppendFlags(advFlagGeneralDiscoverable | advFlagLEOnly)
